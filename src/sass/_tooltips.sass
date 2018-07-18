@@ -1,0 +1,15 @@
+.tooltip
+ position: relative
+ display: inline-block
+
+.tooltip[data-title]:hover:after
+ content: attr(data-title)
+ padding: 4px 8px
+ color: #fff
+ position: absolute
+ left: 0
+ top: 0%
+ left: 80%
+ white-space: nowrap
+ border-radius: 5px
+ background: #000
